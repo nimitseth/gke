@@ -3,7 +3,6 @@ terraform {
     bucket  = "tf-state-prod"
     prefix  = "terraform/state"
   }
-}
 
   required_providers {
     google = {
